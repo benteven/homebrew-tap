@@ -1,8 +1,8 @@
 class ClaudeDeck < Formula
   desc "Terminal session manager for Claude Code, built on tmux"
   homepage "https://github.com/benteven/claude-deck"
-  url "https://github.com/benteven/claude-deck/archive/refs/tags/v0.5.5.tar.gz"
-  sha256 "ec84878fcc7e6aa8c7a3793e2941de33f9c099c7ff8fb51a1cf8311a266acf1b"
+  url "https://github.com/benteven/claude-deck/archive/refs/tags/v0.6.0.tar.gz"
+  sha256 "585e510b7a067702f05b69d5bcd86d6c7c196bc8b43ec0a52ff0d8565c60dcf0"
   license "MIT"
   head "https://github.com/benteven/claude-deck.git", branch: "main"
 
@@ -11,7 +11,7 @@ class ClaudeDeck < Formula
   depends_on "tmux"
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w")
+    system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=#{version}")
   end
 
   test do
