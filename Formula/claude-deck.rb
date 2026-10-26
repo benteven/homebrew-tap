@@ -1,8 +1,8 @@
 class ClaudeDeck < Formula
   desc "Terminal session manager for Claude Code, built on tmux"
   homepage "https://github.com/benteven/claude-deck"
-  url "https://github.com/benteven/claude-deck/archive/refs/tags/v0.6.4.tar.gz"
-  sha256 "d210d2543887ec580bd4d04b7862bd91bef8ebb8c242b19d36f8bfe0ca05b000"
+  url "https://github.com/benteven/claude-deck/archive/refs/tags/v0.6.5.tar.gz"
+  sha256 "9df2a45ae9b3cb39576352e2ad03e1936dafde52ca43c68afeef3bc2f14a9377"
   license "MIT"
   head "https://github.com/benteven/claude-deck.git", branch: "main"
 
