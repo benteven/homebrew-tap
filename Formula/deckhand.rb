@@ -1,8 +1,8 @@
 class Deckhand < Formula
   desc "Terminal session manager for Claude Code, built on tmux"
   homepage "https://github.com/benteven/deckhand"
-  url "https://github.com/benteven/deckhand/archive/refs/tags/v0.16.0.tar.gz"
-  sha256 "aa4ae450731ce45271351fd4a813f76ad417f87afe2cadb1195ff56440edb344"
+  url "https://github.com/benteven/deckhand/archive/refs/tags/v0.17.0.tar.gz"
+  sha256 "be38921c0d15a305164b2c017a20322b48edbf0bc461498176f713dd3a877b70"
   license "MIT"
   head "https://github.com/benteven/deckhand.git", branch: "main"
 
